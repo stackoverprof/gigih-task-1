@@ -4,16 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- load the css stylesheet -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- web title -->
     <title>GIGIH Task 1</title>
   </head>
   <body>
+    <!-- section of music submission -->
     <section class="submission">
+      <!-- header title -->
       <div class="heading">
         <h1>Create Playlist</h1>
       </div>
+      <!-- form submission -->
       <form id="form" class="form">
+        <!-- input title -->
         <div class="input-group">
           <label for="title">Title</label>
           <input
@@ -23,6 +29,7 @@
             placeholder="Name the title"
           />
         </div>
+        <!-- input description -->
         <div class="input-group">
           <label for="description">Description</label>
           <textarea
@@ -33,22 +40,30 @@
             placeholder="Explain something"
           ></textarea>
         </div>
+        <!-- submit button that trigger alerts with text -->
         <div class="input-group">
           <button type="submit">Submit</button>
         </div>
       </form>
     </section>
 
+    <!-- section of custom div -->
     <section class="music">
       <div class="card-music">
+        <!-- image -->
         <img src="assets/album.png" alt="" />
+        <!-- title -->
         <h3 class="title">Castle on the Hill</h3>
+        <!-- artist -->
         <p class="artist">Ed Sheeran</p>
+        <!-- album -->
         <p class="album">Divide (Deluxe Edition)</p>
+        <!-- button that does nothin' -->
         <button class="play">&#9658; Play</button>
       </div>
     </section>
 
+    <!-- load the JS script file -->
     <script src="script.js"></script>
   </body>
 </html>
